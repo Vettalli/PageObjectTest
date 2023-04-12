@@ -1,0 +1,15 @@
+{
+  "browserDriver" : "chrome",
+  "url": "https://demoqa.com/",
+  "timeoutInSeconds" : "5",
+  "chromeOptions" :
+          [
+            "--remote-allow-origins=*",
+            "--incognito",
+            "--blink-settings=imagesEnabled=false"
+          ],
+  "firefoxOptions":
+          [
+            "-private"
+          ]
+}
