@@ -28,6 +28,8 @@ public class DEMOQATests extends BaseTest {
 
         Assert.assertTrue(isMainPageOpen, "DENOQA Main page is not opened");
 
+        BrowserUtil.scrollPage();
+
         mainPage.goToAlertsFrameWindowsPage();
 
         Assert.assertTrue(alertsPage.isFormOpen(), "Alerts, Frame & Windows page is not opened");
@@ -83,6 +85,8 @@ public class DEMOQATests extends BaseTest {
         var isMainPageOpen = mainPage.isFormOpen();
 
         Assert.assertTrue(isMainPageOpen, "DENOQA Main page is not opened");
+
+        BrowserUtil.scrollPage();
 
         mainPage.goToAlertsFrameWindowsPage();
 
@@ -142,6 +146,8 @@ public class DEMOQATests extends BaseTest {
             var isMainPageOpen = mainPage.isFormOpen();
 
             Assert.assertTrue(isMainPageOpen, "DENOQA Main page is not opened");
+
+            BrowserUtil.scrollPage();
 
             mainPage.goToElementsPage();
 
@@ -224,6 +230,8 @@ public class DEMOQATests extends BaseTest {
         var isMainPageOpen = mainPage.isFormOpen();
 
         Assert.assertTrue(isMainPageOpen, "DENOQA Main page is not opened");
+
+        BrowserUtil.scrollPage();
 
         mainPage.goToAlertsFrameWindowsPage();
 
